@@ -79,7 +79,7 @@ DATABASES = {
         'NAME'      : 'db_dummy',         
         'USER'      : 'root',
         'PASSWORD'  : 'dbkominfo56227',
-        'HOST'      : '192.168.13.26',
+        'HOST'      : 'http://192.168.13.26/',
         'PORT'      : 3306,
     }
 }
