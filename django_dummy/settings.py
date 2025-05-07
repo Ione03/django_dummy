@@ -75,7 +75,8 @@ WSGI_APPLICATION = 'django_dummy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE'    : 'django.db.backends.mysql',
+        'ENGINE'    : 'django.db.backends.sqlite3',
+	'DB_NAME'   : 'db_authbox.sqlite3',
         'NAME'      : 'db_dummy',         
         'USER'      : 'root',
         'PASSWORD'  : '',
