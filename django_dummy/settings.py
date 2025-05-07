@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-a&z^s2otbpj#315z#4$b7+&$yg49b=gr&_1_$9_7rul3mf*!*f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*.*']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'django_dummy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE'    : 'django.db.backends.sqlite3',
-	'DB_NAME'   : 'db_authbox.sqlite3',
+	'DB_NAME'   : '/home/authboxw/public_html/db_authbox.sqlite3',
         'NAME'      : 'db_dummy',         
         'USER'      : 'root',
         'PASSWORD'  : '',
