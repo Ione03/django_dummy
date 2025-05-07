@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-a&z^s2otbpj#315z#4$b7+&$yg49b=gr&_1_$9_7rul3mf*!*f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.authbox.web.id']
+ALLOWED_HOSTS = ['*.*']
 
 # Application definition
 
